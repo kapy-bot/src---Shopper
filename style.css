@@ -1,0 +1,72 @@
+.navbar{
+    width:auto;
+    height:50px;
+    border-bottom: 1px solid grey;
+    vertical-align: middle;
+}
+.nav-button{
+    width:80px;
+    height:100%;
+    font-size: medium;
+    font-weight: 300;
+    border:none;
+    background: none;
+}
+
+.nav-button:hover{
+    background-color:lightblue;
+    opacity: 0.9;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(16, 64, 255);
+}
+.login{
+    position:relative;
+    left:83%;
+    width:90px;
+}
+
+form{
+    border:2.5px solid rgb(0, 156, 209);
+    height:auto;
+    width:350px;
+    padding:20px;
+    border-radius: 5px;
+}
+
+
+label{
+    font-size:20px;
+    font-weight: 400;
+    width:90%;
+    margin-inline: auto;
+}
+
+input{
+    font-size:18px;
+    width:85%;
+    border-radius:5px;
+    margin-top:5px;
+    margin-bottom:10px;
+    border: 1px solid lightslategray;
+    padding-left:10px;
+    height:35px;
+}
+input:active{
+    border:1.5px solid rgb(0, 156, 209);
+}
+
+.submit-btn{
+    width:100%;
+    height:35px;
+    font-size: 20px;
+    border-radius: 5px;
+    border:none;
+    color:white;
+    background-color: rgb(0, 156, 209);
+    opacity: 0.85;
+    margin-top: 50px;
+}
+
+.submit-btn:hover{
+    opacity: 1;
+}
